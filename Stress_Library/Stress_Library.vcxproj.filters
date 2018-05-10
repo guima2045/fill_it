@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Math\Coordinate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\Euclidean_Vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\Transformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NASTRAN_General\BASIC_MODEL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NASTRAN_General\CBUSH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NASTRAN_General\COORD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NASTRAN_General\CQUAD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NASTRAN_General\GRID.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NASTRAN_General\LOAD_CASE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NASTRAN_General\MAT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NASTRAN_General\PBUSH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NASTRAN_General\PCOMP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NASTRAN_General\PSHELL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NASTRAN_General\RBE2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NASTRAN_General\RBE3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stress\CAUCHY_STRESS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\Math\Coordinate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Math\Euclidean_Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Math\Transformation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NASTRAN_General\BASIC_MODEL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NASTRAN_General\CBUSH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NASTRAN_General\COORD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NASTRAN_General\CQUAD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NASTRAN_General\GRID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NASTRAN_General\LOAD_CASE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NASTRAN_General\MAT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NASTRAN_General\PBUSH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NASTRAN_General\PCOMP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NASTRAN_General\PSHELL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NASTRAN_General\RBE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\NASTRAN_General\RBE3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Stress\CAUCHY_STRESS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
